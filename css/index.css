@@ -1,0 +1,94 @@
+body {
+  background-color: #282725;
+  background-image: url("/pic/Background/Full.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: absolute;
+  width: 100%;
+
+}
+
+area:hover,
+.hover {
+  cursor: pointer;
+  display: block;
+}
+
+.container {
+  width: 838px;
+  height: 337.5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  position: absolute;
+
+}
+
+#gameWindow {
+  width: 100%;
+  height: 100%;
+  float: left;
+  width: 600px;
+  height: 337.5px;
+  border-style: solid;
+  border-color: #FEF6E8;
+  margin-right: 10px;
+  margin-left: 10px;
+
+}
+
+#inventory {
+  width: 33%;
+  float: left;
+  width: 100px;
+  height:29vw;
+  background-color: #67655E;
+  border-style: double;
+  border-color: #FEF6E8;
+}
+
+#inventory1 {
+  width: 33%;
+  float: left;
+  width: 100px;
+  height:29vw;
+  background-color: #67655E;
+  border-style: double;
+  border-color: #FEF6E8;
+}
+
+.pic {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+.axe {
+  position: absolute;
+  top: 220px;
+  left: 450px;
+  height: 30%;
+}
+.axe_inventory {
+    position: absolute;
+    top: 20px;
+    left: 750px;
+    height: 10%;
+  }
+
+.back {
+  position: absolute;
+  z-index: 2;
+  top: 20px;
+  left: 20px;
+  height: 10%;
+}

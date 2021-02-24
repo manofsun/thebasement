@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/gameManger.js"></script>
+    <title>Document</title>
+</head>
+
+<body onload="movie()">
+
+    <div class="container">
+        <div id="inventory">
+        </div>
+        <div id="gameWindow">
+            <img src="/pic/button/back.png" alt="home" id="back" usemap="#outside" class="pic back" onclick="back()">
+            <img src="/pic/outside_blur.png" alt="home" id="outsideblure" usemap="#outside" class="pic hide">
+            <img src="/pic/outside.png" alt="home" id="outside" usemap="#outside" class="pic hide">
+            <img src="/pic/graveyard.png" alt="home" id="graveyard" usemap="#outside" class="pic hide">
+            <img src="/pic/lobby.png" alt="home" id="lobby" usemap="#lobby" class="pic hide">
+            <img src="/pic/axe_room.png" alt="home" id="axe_room" usemap="#outside" class="pic hide">
+            <img src="/pic/element/axe.png" alt="home" id="axe" usemap="#outside" class="pic axe hide">
+
+            <map name="outside">
+                <area shape="rect" coords="304,265,204,190" alt="Computer" onclick="lobby()">
+                <area shape="rect" coords="488,115,599,184" alt="Computer" onclick="graveyard() ">
+            </map>
+            <map name="lobby">
+                <area shape="rect" coords="164,1,253,160" alt="Computer" onclick="axe_room()">
+            </map>
+        </div>
+        <div id="inventory1">
+        </div>
+
+
+    </div>
+</div>
+
+</body>
+
+</html>
